@@ -1,0 +1,56 @@
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(226, 222, 222);
+    width: 100%;
+    & ul {
+        display: flex;
+        gap: 1rem;
+    }
+}
+
+li {
+    list-style: none;
+    text-decoration: none;
+    font-style: none
+    ;
+}
+
+main {
+    width: 70%;
+}
+
+section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Tres columnas de igual tamaño */
+    justify-items: center;
+    width: 300px;
+    gap: 1rem;
+    max-width: 800px;
+    justify-items: left;
+}
+
+article {
+    width: 300px;
+}
+
+aside {
+    display: grid;
+    justify-items: right;
+}
+
+.asideContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 200px;
+}
