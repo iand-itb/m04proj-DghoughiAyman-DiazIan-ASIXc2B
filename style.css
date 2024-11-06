@@ -1,56 +1,125 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
 header {
+    margin-bottom: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    & img {
+        width: 200px;
+    }
+}
+
+.container {
+    margin: 0 100px;
+    display: flex;
+    flex-grow: 1;
 }
 
 nav {
+    margin-top: 5px;
+    border-top: solid 1px gray;
+    border-bottom: solid 1px gray;
     display: flex;
     justify-content: center;
-    background-color: rgb(226, 222, 222);
     width: 100%;
     & ul {
         display: flex;
         gap: 1rem;
+    }
+    & a {
+        color: black;
+        text-decoration: none;
     }
 }
 
 li {
     list-style: none;
     text-decoration: none;
-    font-style: none
-    ;
+    font-style: none;
 }
 
 main {
-    width: 70%;
+    justify-content: center;
+    display: flex;
+    flex-grow: 1;
 }
 
 section {
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* Tres columnas de igual tamaño */
-    justify-items: center;
-    width: 300px;
+    width: 100%;
     gap: 1rem;
     max-width: 800px;
-    justify-items: left;
+    margin: 0 auto;
 }
 
 article {
+    /*border: solid 1px black;*/
     width: 300px;
+
+    & img {
+        height: 200px;
+        width: 100%;
+    }
+    & .title {
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 12px;
+    }
+    & .date {
+        margin: 0px;
+        font-size: 11px;
+        text-align: center;
+    }
+    & hr {
+        margin: 0px;
+    }
+    & .description {
+        font-size: 11px;
+
+    }
+
 }
 
 aside {
-    display: grid;
-    justify-items: right;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /*border: 1px solid black;*/
+    & img {
+        width: 100px;
+    }
+    & p {
+        font-size: 11px;
+    }
 }
 
 .asideContainer {
-    display: flex;
-    flex-direction: column;
+    margin-right: 20px;
+    width: 200px;
 }
 
-img {
-    width: 200px;
+#sub {
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+    & b {
+        font-size: 11px;
+    }
+}
+
+footer {
+    background-color: black;
+    & a{
+        font-size: 12px;
+        color: white;
+    }
 }
