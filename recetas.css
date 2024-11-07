@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+}
+header {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    & img {
+        width: 200px;
+    }
+}
+nav {
+    margin-top: 5px;
+    border-top: solid 1px gray;
+    border-bottom: solid 1px gray;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    & ul {
+        display: flex;
+        gap: 1rem;
+    }
+    & a {
+        color: black;
+        text-decoration: none;
+    }
+    & a:hover {
+        color: rgb(100, 182, 100);
+    }
+}
+
+.ingredientes li {
+    list-style: none;
+    text-decoration: none;
+    font-style: none;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+h1 {
+    color: #0a8f08;
+}
+
+.recipe {
+    border-top: 1px solid #ddd;
+    padding: 20px 0;
+}
+.recipe a{
+    color: rgb(100, 182, 100);
+}
+
+.recipe a:hover {
+    color: rgb(134, 202, 134); 
+}
+.recipe h2 {
+    color: #0a8f08;
+    margin-bottom: 5px;
+}
+
+.description {
+    font-style: italic;
+    color: #666;
+}
+
+p {
+    margin: 5px 0;
+}
+
+.icons {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.icon {
+    font-size: 18px;
+}
+
+.check {
+    color: green;
+}
+
+.warning {
+    color: orange;
+}
+
+.utensil {
+    color: black;
+}
+
+.vegetarian {
+    color: green;
+}
+
+.like{
+    color: rgb(100, 182, 100);
+}
+.actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.recipe-image {
+    width: 100px;
+    border-radius: 5px;
+}
+footer {
+    background-color: black;
+    & a{
+        font-size: 12px;
+        color: white;
+    }
+}
