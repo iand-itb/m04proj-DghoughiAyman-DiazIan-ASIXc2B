@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../css/formulari.css">
+</head>
+<body>
+    <header>
+        <img src="../img/Logo-Delicias.png" id="logo">
+        <nav>
+            <ul>
+                <a href="../index.html">INICIO</a>
+                <a href="">SOBRE MÍ</a>
+                <a href="../listado/listarecetas.html">RECETAS</a>
+                <a href="formulari.html">CONTACTO</a>
+                <a href="">OTRAS COSAS</a>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="formulario">
+            <h2>Registro y Agregar Comentario o Receta</h2>
+            <form action="" method="GET">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                
+                <label for="comentario">Comentario:</label>
+                <textarea id="comentario" name="comentario" rows="4" required></textarea>
+                
+                <label for="receta">Tipo de Receta:</label>
+                <select id="receta" name="receta" required>
+                    <option value="entrante">Entrante</option>
+                    <option value="plato_principal">Plato Principal</option>
+                    <option value="postre">Postre</option>
+                </select>
+                
+                <label for="aceptar">Acepto los términos y condiciones</label>
+                <input type="checkbox" id="aceptar" name="aceptar" required>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <nav>
+            <ul>
+                <a href="">FACEBOOK</a>
+                <a href="">TWITTER</a>
+                <a href="">INSTAGRAM</a>
+                <a href="">PINTEREST</a>
+                <a href="">EMAIL</a>
+                <a href="">RRSS</a>
+            </ul>
+        </nav>
+    </footer>
+</html>

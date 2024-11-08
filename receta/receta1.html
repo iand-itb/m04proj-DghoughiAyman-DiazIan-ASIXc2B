@@ -3,28 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Receta</title>
-    <link rel="stylesheet" href="recetas.css">
+    <title>Spaghettis con salsa y albóndigas de carne gratinados al horno con queso</title>
+    <link rel="stylesheet" href="../css/recetas.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header>
-        <img src="./img/Logo-Delicias.png" id="logo">
+        <img src="../img/Logo-Delicias.png" id="logo">
         <nav>
             <ul>
-                <a href="index.html">INICIO</a>
+                <a href="../index.html">INICIO</a>
                 <a href="">SOBRE MÍ</a>
-                <a href="listarecetas.html">RECETAS</a>
-                <a href="">CONTACTO</a>
+                <a href="../listado/listarecetas.html">RECETAS</a>
+                <a href="../contacto/formulari.html">CONTACTO</a>
                 <a href="">OTRAS COSAS</a>
             </ul>
         </nav>
     </header>
     <div class="container">
         <div class="recipe">
-            <h1>Spaghettis con salsa y albóndigas de carne gratinados al horno con queso</h1>
+            <h1 class="receta1">Spaghettis con salsa y albóndigas de carne gratinados al horno con queso</h1>
             <p class="description">Receta de spaghettis con salsa y albóndigas de carne gratinados al horno con queso</p>
-            <img src="img/spaghettis.jpg" alt="Spaghettis con salsa y albóndigas de carne gratinados al horno con queso">
+            <img src="../img/spaghettis.jpg" alt="Spaghettis con salsa y albóndigas de carne gratinados al horno con queso">
             <div class="ingredientes">
                 <h2>Ingredientes</h2>
                 <h3>Para las albóndigas</h3>
@@ -62,7 +62,13 @@
                 <li>Servir en platos y a disfrutar!!</li>
             </ol>
             <br>
-            <p><strong>Dificultad:</strong> baja <strong>Cocina:</strong> tradicional <strong>Vegetariana:</strong> no <strong>Celíacos:</strong> no <strong>Anticáncer:</strong> no</p>
+            <p>
+                <span class="label"><strong>Dificultad:</strong> baja</span>
+                <span class="label"><strong>Cocina:</strong> tradicional</span>
+                <span class="label"><strong>Vegetariana:</strong> no</span>
+                <span class="label"><strong>Celíacos:</strong> no</span>
+                <span class="label"><strong>Anticáncer:</strong> no</span>
+            </p>
             <div class="icons">
                 <span class="icon check">&#x2714;</span>
                 <span class="icon utensil">&#x1F373;</span>
@@ -70,7 +76,7 @@
             </div>
             <p><strong>Autor:</strong> Anónimo</p>
             <div class="actions">
-                <span class="icon like"><a href="#"><i class="fa fa-thumbs-up"></i></a></span>
+                <span id="like" class="icon like"><a href="#"><i class="fa fa-thumbs-up"></i></a></span>
             </div>
     </div>
     <footer>
@@ -87,3 +93,10 @@
     </footer>
 </body>
 </html>
+
+<script>
+    const like = document.getElementById("like")
+    like.addEventListener("click", () => {
+        alert("Gracias por dar like! 🤓")
+    })
+</script>

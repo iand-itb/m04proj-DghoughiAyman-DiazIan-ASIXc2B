@@ -1,20 +1,28 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
 body {
-    font-family: Arial, sans-serif;
     background-color: #fff;
     color: #333;
+    top: 0;
+    margin: 0;
 }
+
 header {
+    position: sticky;
     margin-bottom: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     & img {
-        width: 200px;
+        width: 225px;
     }
 }
+
 nav {
-    margin-top: 5px;
     border-top: solid 1px gray;
     border-bottom: solid 1px gray;
     display: flex;
@@ -34,26 +42,54 @@ nav {
 }
 
 .ingredientes li {
+    margin-top: 5px;
     list-style: none;
     text-decoration: none;
     font-style: none;
 }
+
+.ingredientes {
+    margin-left: 50px;
+    align-self: flex-start;
+    text-align: left;
+    max-width: 300px;
+}
+
 .container {
-    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: 0 auto;
     padding: 20px;
-    background-color: #f9f9f9;
     border-radius: 5px;
 }
 
 h1 {
     color: #0a8f08;
+    text-align: center;
 }
 
 .recipe {
-    border-top: 1px solid #ddd;
-    padding: 20px 0;
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0;
+    background-color: #f9f9f9;
+    border-radius: 5px;
 }
+
+.recipe ol {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.recipe li {
+    margin-bottom: 15px;
+}
+
 .recipe a{
     color: rgb(100, 182, 100);
 }
@@ -104,6 +140,7 @@ p {
 .like{
     color: rgb(100, 182, 100);
 }
+
 .actions {
     display: flex;
     gap: 10px;
@@ -114,10 +151,18 @@ p {
     width: 100px;
     border-radius: 5px;
 }
+
 footer {
+    width: 100%;
     background-color: black;
     & a{
         font-size: 12px;
         color: white;
     }
+}
+
+img {
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }

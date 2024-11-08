@@ -1,0 +1,184 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body {
+    background-color: #fff;
+    color: #333;
+    top: 0;
+    margin: 0;
+}
+header {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    & img {
+        width: 225px;
+    }
+}
+nav {
+    margin-top: 15px;
+    border-top: solid 1px gray;
+    border-bottom: solid 1px gray;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    & ul {
+        display: flex;
+        gap: 1rem;
+    }
+    & a {
+        color: black;
+        text-decoration: none;
+    }
+    & a:hover {
+        color: rgb(100, 182, 100);
+    }
+}
+
+.ingredientes li {
+    list-style: none;
+    text-decoration: none;
+    font-style: none;
+}
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+h1 {
+    color: #0a8f08;
+}
+
+.receta1 {
+    color: #0a8f08;
+    text-align: center;
+}
+
+.recipe {
+    border-top: 1px solid #ddd;
+    padding: 20px 0;
+}
+.recipe a{
+    color: rgb(100, 182, 100);
+}
+
+.recipe a:hover {
+    color: rgb(134, 202, 134); 
+}
+.recipe h2 {
+    color: #0a8f08;
+    margin-bottom: 5px;
+}
+
+.description {
+    font-style: italic;
+    color: #666;
+}
+
+p {
+    margin: 5px 0;
+}
+
+.icons {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.icon {
+    font-size: 18px;
+}
+
+.check {
+    color: green;
+}
+
+.warning {
+    color: orange;
+}
+
+.utensil {
+    color: black;
+}
+
+.vegetarian {
+    color: green;
+}
+
+.like{
+    color: rgb(100, 182, 100);
+}
+.actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.recipe-image {
+    width: 100px;
+    border-radius: 5px;
+}
+footer {
+    background-color: black;
+    & a{
+        font-size: 12px;
+        color: white;
+    }
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    margin-left: 45px;
+    max-width: fit-content;
+}
+
+.pagination button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 10%;
+    background-color: #e0e0e0;
+    color: #333;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.pagination button:hover {
+    background-color: #cccccc;
+}
+
+.pagination .active {
+    background-color: #0a8f08;
+    color: white;
+}
+
+.pagination .prev, .pagination .next {
+    border-radius: 10%;
+    padding: 8px 16px;
+}
+
+.label {
+    margin-right: 25px; /* Ajusta el valor según el espacio que desees */
+}
