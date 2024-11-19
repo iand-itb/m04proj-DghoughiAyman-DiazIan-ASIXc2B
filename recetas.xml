@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<receptes>
+    <recepta>
+    <titol>Spaghettis con salsa y albóndigas de carne gratinados al horno con queso</titol>
+    <descripcio>Receta de spaghettis con salsa y albóndigas de carne gratinados al horno con queso</descripcio>
+    <imatge src="../img/spaghettis.jpg" alt="Spaghettis con salsa y albóndigas de carne gratinados al horno con queso"/>
+    <ingredients>
+      <categoria nom="Para las albóndigas">
+        <ingredient>1/4 de carne molida común</ingredient>
+        <ingredient>1/2 cebolla grande</ingredient>
+        <ingredient>Perejil picado</ingredient>
+        <ingredient>1 huevo</ingredient>
+        <ingredient>Harina común</ingredient>
+        <ingredient>Sal</ingredient>
+        <ingredient>Aceite para freír</ingredient>
+      </categoria>
+      <categoria nom="Para la salsa">
+        <ingredient>1 cebolla</ingredient>
+        <ingredient>1 pimiento rojo o verde</ingredient>
+        <ingredient>Salsa de tomate y tomate triturado</ingredient>
+        <ingredient>Laurel</ingredient>
+        <ingredient>Ajo</ingredient>
+        <ingredient>Spaghettis frescos</ingredient>
+        <ingredient>Queso</ingredient>
+      </categoria>
+    </ingredients>
+    <preparacio>
+      <pas>Pica bien fina 1/2 cebolla y agrégasela a la carne molida, mezcla bien, agrega sal, 1 huevo y un poco de harina.</pas>
+      <pas>Arma bolitas con la mezcla de carne y pásalas por harina. Calentar una sartén con aceite, cuando esté bien caliente mete las bolitas de carne que se doren un poquito.</pas>
+      <pas>Mientras tanto, prepara una salsa con todos los ingredientes...</pas>
+      <pas>A medida que las albóndigas estén doraditas, sacarlas del aceite y sumérgelas en la salsa. Así con todas las albóndigas.</pas>
+      <pas>Tapar la olla de la salsa y cocina un rato para que la carne no quede cruda.</pas>
+      <pas>Hervir agua con sal gruesa, cuando esté en ebullición agrega los spaghettis hasta su punto de cocción.</pas>
+      <pas>Pasar los fideos a una cacerola apta para horno, encima la salsa y queso (el que más te guste, para que se derrita). Gratinarlos en el horno unos minutos hasta que el queso se funda.</pas>
+      <pas>Servir en platos y a disfrutar!! 😋</pas>
+    </preparacio>
+    <detalls>
+      <dificultat>baja</dificultat>
+      <cocina>tradicional</cocina>
+      <vegetariana>no</vegetariana>
+      <celiacos>no</celiacos>
+      <anticancer>no</anticancer>
+      <autor>Anónimo</autor>
+    </detalls>
+  </recepta>
+
+  <!-- Receta 2 -->
+  <recepta>
+    <titol>Tarta de queso mascarpone y arándanos</titol>
+    <descripcio></descripcio>
+    <imatge src="../img/mascarpone.jpg" alt="Tarta de queso mascarpone y arándanos"/>
+    <ingredients>
+      <categoria nom="Para la base">
+        <ingredient>1 paquete de galletas</ingredient>
+        <ingredient>Mantequilla</ingredient>
+      </categoria>
+      <categoria nom="Para el relleno">
+        <ingredient>250g de queso mascarpone</ingredient>
+        <ingredient>200ml de nata para montar</ingredient>
+        <ingredient>100g de azúcar</ingredient>
+        <ingredient>1 sobre de gelatina</ingredient>
+        <ingredient>Arándanos</ingredient>
+      </categoria>
+    </ingredients>
+    <preparacio>
+      <pas>Tritura las galletas y mézclalas con mantequilla derretida.</pas>
+      <pas>Extiende la mezcla en un molde y enfríala en la nevera.</pas>
+      <pas>Bate el queso mascarpone con el azúcar.</pas>
+      <pas>Monta la nata e incorpórala a la mezcla anterior.</pas>
+      <pas>Disuelve la gelatina según las instrucciones y añádela.</pas>
+      <pas>Vierte la mezcla sobre la base y enfría en la nevera hasta que solidifique.</pas>
+      <pas>Decora con arándanos antes de servir.</pas>
+    </preparacio>
+    <detalls>
+      <dificultat>baja</dificultat>
+      <cocina>repostería</cocina>
+      <vegetariana>sí</vegetariana>
+      <celiacos>no</celiacos>
+      <anticancer>no</anticancer>
+      <autor>Anónimo</autor>
+    </detalls>
+  </recepta>
+
+  <!-- Receta 3 -->
+  <recepta>
+    <titol>Sushi de salmón y aguacate</titol>
+    <descripcio></descripcio>
+    <imatge src="../img/sushi.jpg" alt="Sushi de salmón y aguacate"/>
+    <ingredients>
+      <categoria nom="Principal">
+        <ingredient>Arroz para sushi</ingredient>
+        <ingredient>Vinagre de arroz</ingredient>
+        <ingredient>Salmón fresco</ingredient>
+        <ingredient>Aguacate</ingredient>
+        <ingredient>Alga nori</ingredient>
+      </categoria>
+    </ingredients>
+    <preparacio>
+      <pas>Cocina el arroz y condiméntalo con vinagre de arroz.</pas>
+      <pas>Coloca el alga nori sobre una esterilla y extiende el arroz uniformemente.</pas>
+      <pas>Coloca tiras de salmón y aguacate sobre el arroz.</pas>
+      <pas>Enrolla el alga ayudándote de la esterilla.</pas>
+      <pas>Corta el rollo en piezas y sirve.</pas>
+    </preparacio>
+    <detalls>
+      <dificultat>media</dificultat>
+      <cocina>japonesa</cocina>
+      <vegetariana>no</vegetariana>
+      <celiacos>no</celiacos>
+      <anticancer>no</anticancer>
+      <autor>Anónimo</autor>
+    </detalls>
+  </recepta>
+
+  <!-- Más recetas -->
+  <recepta>
+    <titol>Ensalada caprese</titol>
+    <descripcio></descripcio>
+    <imatge src="../img/caprese.jpg" alt="Ensalada caprese"/>
+    <ingredients>
+      <categoria nom="Principal">
+        <ingredient>Tomates</ingredient>
+        <ingredient>Mozzarella fresca</ingredient>
+        <ingredient>Albahaca</ingredient>
+        <ingredient>Aceite de oliva</ingredient>
+        <ingredient>Vinagre balsámico</ingredient>
+      </categoria>
+    </ingredients>
+    <preparacio>
+      <pas>Corta los tomates y la mozzarella en rodajas.</pas>
+      <pas>Intercala las rodajas en un plato y decora con hojas de albahaca.</pas>
+      <pas>Aliña con aceite de oliva, vinagre balsámico, sal y pimienta.</pas>
+    </preparacio>
+    <detalls>
+      <dificultat>baja</dificultat>
+      <cocina>italiana</cocina>
+      <vegetariana>sí</vegetariana>
+      <celiacos>sí</celiacos>
+      <anticancer>no</anticancer>
+      <autor>Anónimo</autor>
+    </detalls>
+  </recepta>
+  <!-- Receta 5 -->
+  <recepta>
+    <titol>Gazpacho andaluz</titol>
+    <descripcio></descripcio>
+    <imatge src="../img/gazpacho.jpg" alt="Gazpacho andaluz"/>
+    <ingredients>
+      <categoria nom="Principal">
+        <ingredient>Tomates maduros</ingredient>
+        <ingredient>Cebolla</ingredient>
+        <ingredient>Pimiento verde</ingredient>
+        <ingredient>Ajo</ingredient>
+        <ingredient>Pepino</ingredient>
+        <ingredient>Aceite de oliva</ingredient>
+        <ingredient>Vinagre de Jerez</ingredient>
+        <ingredient>Sal</ingredient>
+        <ingredient>Pan</ingredient>
+      </categoria>
+    </ingredients>
+    <preparacio>
+      <pas>Trocea los tomates, cebolla, pimiento, ajo y pepino.</pas>
+      <pas>Mete los ingredientes en una batidora, añade el pan, aceite de oliva, vinagre y sal.</pas>
+      <pas>Bate hasta obtener una crema suave y refrigera antes de servir.</pas>
+    </preparacio>
+    <detalls>
+      <dificultat>baja</dificultat>
+      <cocina>andaluz</cocina>
+      <vegetariana>sí</vegetariana>
+      <celiacos>sí</celiacos>
+      <anticancer>no</anticancer>
+      <autor>Anónimo</autor>
+    </detalls>
+  </recepta>
+
+  <!-- Receta 6 -->
+  <recepta>
+    <titol>Paella de mariscos</titol>
+    <descripcio></descripcio>
+    <imatge src="../img/paella.jpg" alt="Paella de mariscos"/>
+    <ingredients>
+      <categoria nom="Principal">
+        <ingredient>Arroz</ingredient>
+        <ingredient>Mariscos variados</ingredient>
+        <ingredient>Pimiento rojo</ingredient>
+        <ingredient>Ajo</ingredient>
+        <ingredient>Cebolla</ingredient>
+        <ingredient>Caldo de pescado</ingredient>
+        <ingredient>Azafrán</ingredient>
+        <ingredient>Guisantes</ingredient>
+        <ingredient>Tomates</ingredient>
+      </categoria>
+    </ingredients>
+    <preparacio>
+      <pas>Haz un sofrito con cebolla, ajo, pimiento y tomate.</pas>
+      <pas>Agrega los mariscos y el arroz, sofríe unos minutos.</pas>
+      <pas>Vierte el caldo de pescado, el azafrán y los guisantes.</pas>
+      <pas>Cocina a fuego lento hasta que el arroz esté listo y los mariscos cocidos.</pas>
+    </preparacio>
+    <detalls>
+      <dificultat>media</dificultat>
+      <cocina>valenciana</cocina>
+      <vegetariana>no</vegetariana>
+      <celiacos>no</celiacos>
+      <anticancer>no</anticancer>
+      <autor>Anónimo</autor>
+    </detalls>
+  </recepta>
+
+  <!-- Receta 7 -->
+  <recepta>
+    <titol>Crepes dulces con Nutella</titol>
+    <descripcio></descripcio>
+    <imatge src="../img/crepes.jpg" alt="Crepes dulces con Nutella"/>
+    <ingredients>
+      <categoria nom="Principal">
+        <ingredient>1 huevo</ingredient>
+        <ingredient>250ml de leche</ingredient>
+        <ingredient>125g de harina</ingredient>
+        <ingredient>1 cucharada de azúcar</ingredient>
+        <ingredient>Nutella</ingredient>
+      </categoria>
+    </ingredients>
+    <preparacio>
+      <pas>Bate el huevo con la leche, añade la harina y el azúcar.</pas>
+      <pas>Cocina los crepes en una sartén con un poco de aceite.</pas>
+      <pas>Rellena con Nutella y enrolla.</pas>
+    </preparacio>
+    <detalls>
+      <dificultat>baja</dificultat>
+      <cocina>francesa</cocina>
+      <vegetariana>sí</vegetariana>
+      <celiacos>no</celiacos>
+      <anticancer>no</anticancer>
+      <autor>Anónimo</autor>
+    </detalls>
+  </recepta>
+
+  <!-- Receta 8 -->
+  <recepta>
+    <titol>Pizza margarita</titol>
+    <descripcio></descripcio>
+    <imatge src="../img/pizza.jpg" alt="Pizza margarita"/>
+    <ingredients>
+      <categoria nom="Para la masa">
+        <ingredient>500g de harina</ingredient>
+        <ingredient>1 sobre de levadura</ingredient>
+        <ingredient>250ml de agua</ingredient>
+        <ingredient>Sal</ingredient>
+        <ingredient>Aceite de oliva</ingredient>
+      </categoria>
+      <categoria nom="Para la cobertura">
+        <ingredient>Salsa de tomate</ingredient>
+        <ingredient>Mozzarella</ingredient>
+        <ingredient>Albahaca</ingredient>
+        <ingredient>Aceite de oliva</ingredient>
+      </categoria>
+    </ingredients>
+    <preparacio>
+      <pas>Mezcla los ingredientes para la masa y deja reposar durante 1 hora.</pas>
+      <pas>Extiende la masa, cubre con salsa de tomate, mozzarella y albahaca.</pas>
+      <pas>Hornea a 220°C durante 15 minutos.</pas>
+    </preparacio>
+    <detalls>
+      <dificultat>media</dificultat>
+      <cocina>italiana</cocina>
+      <vegetariana>sí</vegetariana>
+      <celiacos>no</celiacos>
+      <anticancer>no</anticancer>
+      <autor>Anónimo</autor>
+    </detalls>
+  </recepta>
+
+  <!-- Receta 9 -->
+  <recepta>
+    <titol>Brownie de chocolate</titol>
+    <descripcio></descripcio>
+    <imatge src="../img/brownie.jpg" alt="Brownie de chocolate"/>
+    <ingredients>
+      <categoria nom="Principal">
+        <ingredient>200g de chocolate negro</ingredient>
+        <ingredient>100g de mantequilla</ingredient>
+        <ingredient>150g de azúcar</ingredient>
+        <ingredient>2 huevos</ingredient>
+        <ingredient>100g de harina</ingredient>
+        <ingredient>1 cucharadita de polvo de hornear</ingredient>
+      </categoria>
+    </ingredients>
+    <preparacio>
+      <pas>Derrite el chocolate con la mantequilla.</pas>
+      <pas>Mezcla con el azúcar, los huevos, la harina y el polvo de hornear.</pas>
+      <pas>Vierte en un molde y hornea a 180°C durante 25 minutos.</pas>
+    </preparacio>
+    <detalls>
+      <dificultat>media</dificultat>
+      <cocina>americana</cocina>
+      <vegetariana>sí</vegetariana>
+      <celiacos>no</celiacos>
+      <anticancer>no</anticancer>
+      <autor>Anónimo</autor>
+    </detalls>
+  </recepta>
+
+  <!-- Receta 10 -->
+  <recepta>
+    <titol>Hamburguesa clásica</titol>
+    <descripcio></descripcio>
+    <imatge src="../img/hamburguesa.jpg" alt="Hamburguesa clásica"/>
+    <ingredients>
+      <categoria nom="Para la carne">
+        <ingredient>500g de carne molida</ingredient>
+        <ingredient>Sal</ingredient>
+        <ingredient>Pimienta</ingredient>
+      </categoria>
+      <categoria nom="Para el montaje">
+        <ingredient>Pan de hamburguesa</ingredient>
+        <ingredient>Lechuga</ingredient>
+        <ingredient>Tomate</ingredient>
+        <ingredient>Queso cheddar</ingredient>
+      </categoria>
+    </ingredients>
+    <preparacio>
+      <pas>Forma hamburguesas con la carne, sazona con sal y pimienta.</pas>
+      <pas>Fría las hamburguesas en una sartén o parrilla.</pas>
+      <pas>Coloca la hamburguesa en el pan, añade lechuga, tomate y queso.</pas>
+    </preparacio>
+    <detalls>
+      <dificultat>baja</dificultat>
+      <cocina>americana</cocina>
+      <vegetariana>no</vegetariana>
+      <celiacos>no</celiacos>
+      <anticancer>no</anticancer>
+      <autor>Anónimo</autor>
+    </detalls>
+  </recepta>
+
+  <!-- Receta 11 -->
+  <recepta>
+    <titol>Ensalada César</titol>
+    <descripcio></descripcio>
+    <imatge src="../img/cesar.jpg" alt="Ensalada César"/>
+    <ingredients>
+      <categoria nom="Para la ensalada">
+        <ingredient>Lechuga romana</ingredient>
+        <ingredient>Pollo a la plancha</ingredient>
+        <ingredient>Queso parmesano</ingredient>
+        <ingredient>Crutones</ingredient>
+      </categoria>
+      <categoria nom="Para la salsa">
+        <ingredient>Aceite de oliva</ingredient>
+        <ingredient>Yogur natural</ingredient>
+        <ingredient>Mostaza</ingredient>
+        <ingredient>Ajo</ingredient>
+        <ingredient>Zumo de limón</ingredient>
+      </categoria>
+    </ingredients>
+    <preparacio>
+      <pas>Haz la salsa mezclando todos los ingredientes en un bol.</pas>
+      <pas>Corta la lechuga, el pollo y añade los crutones.</pas>
+      <pas>Vierte la salsa sobre la ensalada y sirve.</pas>
+    </preparacio>
+    <detalls>
+      <dificultat>baja</dificultat>
+      <cocina>italiana</cocina>
+      <vegetariana>no</vegetariana>
+      <celiacos>no</celiacos>
+      <anticancer>no</anticancer>
+      <autor>Anónimo</autor>
+    </detalls>
+  </recepta>
+
+  <!-- Receta 12 -->
+  <recepta>
+    <titol>Arroz con leche</titol>
+    <descripcio></descripcio>
+    <imatge src="../img/arrozconleche.jpg" alt="Arroz con leche"/>
+    <ingredients>
+      <categoria nom="Principal">
+        <ingredient>1 taza de arroz</ingredient>
+        <ingredient>1 litro de leche</ingredient>
+        <ingredient>150g de azúcar</ingredient>
+        <ingredient>Canela</ingredient>
+        <ingredient>Cáscara de limón</ingredient>
+      </categoria>
+    </ingredients>
+    <preparacio>
+      <pas>Cuece el arroz en agua con la cáscara de limón.</pas>
+      <pas>Agrega la leche y el azúcar y cocina a fuego lento.</pas>
+      <pas>Sirve frío o caliente con canela espolvoreada.</pas>
+    </preparacio>
+    <detalls>
+      <dificultat>baja</dificultat>
+      <cocina>española</cocina>
+      <vegetariana>sí</vegetariana>
+      <celiacos>sí</celiacos>
+      <anticancer>no</anticancer>
+      <autor>Anónimo</autor>
+    </detalls>
+  </recepta>
+
+  <!-- Receta 13 -->
+  <recepta>
+    <titol>Gazpacho andaluz</titol>
+    <descripcio></descripcio>
+    <imatge src="../img/gazpacho.jpg" alt="Gazpacho andaluz"/>
+    <ingredients>
+      <categoria nom="Principal">
+        <ingredient>Tomates</ingredient>
+        <ingredient>Pepino</ingredient>
+        <ingredient>Ajo</ingredient>
+        <ingredient>Pan</ingredient>
+        <ingredient>Aceite de oliva</ingredient>
+        <ingredient>Vinagre</ingredient>
+        <ingredient>Sal</ingredient>
+      </categoria>
+    </ingredients>
+    <preparacio>
+      <pas>Mezcla todos los ingredientes en una batidora.</pas>
+      <pas>Refrigera durante 2 horas.</pas>
+      <pas>Sirve frío con trozos de pan o verduras.</pas>
+    </preparacio>
+    <detalls>
+      <dificultat>baja</dificultat>
+      <cocina>andaluz</cocina>
+      <vegetariana>sí</vegetariana>
+      <celiacos>sí</celiacos>
+      <anticancer>no</anticancer>
+      <autor>Anónimo</autor>
+    </detalls>
+  </recepta>
+
+  <!-- Receta 14 -->
+  <recepta>
+    <titol>Sopa de cebolla</titol>
+    <descripcio></descripcio>
+    <imatge src="../img/sopacebolla.jpg" alt="Sopa de cebolla"/>
+    <ingredients>
+      <categoria nom="Principal">
+        <ingredient>Cebolla</ingredient>
+        <ingredient>Caldo de carne</ingredient>
+        <ingredient>Pan</ingredient>
+        <ingredient>Queso rallado</ingredient>
+      </categoria>
+    </ingredients>
+    <preparacio>
+      <pas>Fría las cebollas en mantequilla hasta dorarlas.</pas>
+      <pas>Agregue el caldo y cocina por 30 minutos.</pas>
+      <pas>Sirve con pan tostado y queso rallado.</pas>
+    </preparacio>
+    <detalls>
+      <dificultat>media</dificultat>
+      <cocina>francesa</cocina>
+      <vegetariana>sí</vegetariana>
+      <celiacos>no</celiacos>
+      <anticancer>no</anticancer>
+      <autor>Anónimo</autor>
+    </detalls>
+  </recepta>
+
+  <!-- Receta 15 -->
+  <recepta>
+    <titol>Ensalada de quinoa</titol>
+    <descripcio></descripcio>
+    <imatge src="../img/quinoa.jpg" alt="Ensalada de quinoa"/>
+    <ingredients>
+      <categoria nom="Principal">
+        <ingredient>Quinoa</ingredient>
+        <ingredient>Aguacate</ingredient>
+        <ingredient>Tomate</ingredient>
+        <ingredient>Cebolla morada</ingredient>
+        <ingredient>Jugo de limón</ingredient>
+        <ingredient>Aceite de oliva</ingredient>
+      </categoria>
+    </ingredients>
+    <preparacio>
+      <pas>Cocina la quinoa según las indicaciones del paquete.</pas>
+      <pas>Mezcla con aguacate, tomate, cebolla y el jugo de limón.</pas>
+      <pas>Añade aceite de oliva al gusto.</pas>
+    </preparacio>
+    <detalls>
+      <dificultat>baja</dificultat>
+      <cocina>vegetariana</cocina>
+      <vegetariana>sí</vegetariana>
+      <celiacos>sí</celiacos>
+      <anticancer>sí</anticancer>
+      <autor>Anónimo</autor>
+    </detalls>
+  </recepta>
+</receptes>
