@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="css" href="css/receta.css"?>
 <receptes>
-    <recepta>
+  <recepta id="1">
     <titol>Spaghettis con salsa y albóndigas de carne gratinados al horno con queso</titol>
     <descripcio>Receta de spaghettis con salsa y albóndigas de carne gratinados al horno con queso</descripcio>
     <imatge src="../img/spaghettis.jpg" alt="Spaghettis con salsa y albóndigas de carne gratinados al horno con queso"/>
@@ -46,10 +46,10 @@
   </recepta>
 
   <!-- Receta 2 -->
-  <recepta>
+  <recepta id="2">
     <titol>Tarta de queso mascarpone y arándanos</titol>
-    <descripcio></descripcio>
-    <imatge src="../img/mascarpone.jpg" alt="Tarta de queso mascarpone y arándanos"/>
+    <descripcio>a</descripcio>
+    <imatge src="../img/tartaqueso.jpg" alt="Tarta de queso mascarpone y arándanos"/>
     <ingredients>
       <categoria nom="Para la base">
         <ingredient>1 paquete de galletas</ingredient>
@@ -83,9 +83,9 @@
   </recepta>
 
   <!-- Receta 3 -->
-  <recepta>
+  <recepta id="3">
     <titol>Sushi de salmón y aguacate</titol>
-    <descripcio></descripcio>
+    <descripcio>a</descripcio>
     <imatge src="../img/sushi.jpg" alt="Sushi de salmón y aguacate"/>
     <ingredients>
       <categoria nom="Principal">
@@ -114,7 +114,7 @@
   </recepta>
 
   <!-- Más recetas -->
-  <recepta>
+  <recepta id="4">
     <titol>Ensalada caprese</titol>
     <descripcio></descripcio>
     <imatge src="../img/caprese.jpg" alt="Ensalada caprese"/>
@@ -142,7 +142,7 @@
     </detalls>
   </recepta>
   <!-- Receta 5 -->
-  <recepta>
+  <recepta id="5">
     <titol>Gazpacho andaluz</titol>
     <descripcio></descripcio>
     <imatge src="../img/gazpacho.jpg" alt="Gazpacho andaluz"/>
@@ -175,7 +175,7 @@
   </recepta>
 
   <!-- Receta 6 -->
-  <recepta>
+  <recepta id="6">
     <titol>Paella de mariscos</titol>
     <descripcio></descripcio>
     <imatge src="../img/paella.jpg" alt="Paella de mariscos"/>
@@ -209,7 +209,7 @@
   </recepta>
 
   <!-- Receta 7 -->
-  <recepta>
+  <recepta id="7">
     <titol>Crepes dulces con Nutella</titol>
     <descripcio></descripcio>
     <imatge src="../img/crepes.jpg" alt="Crepes dulces con Nutella"/>
@@ -238,10 +238,10 @@
   </recepta>
 
   <!-- Receta 8 -->
-  <recepta>
+  <recepta id="8">
     <titol>Pizza margarita</titol>
     <descripcio></descripcio>
-    <imatge src="../img/pizza.jpg" alt="Pizza margarita"/>
+    <imatge src="../img/pizza.webp" alt="Pizza margarita"/>
     <ingredients>
       <categoria nom="Para la masa">
         <ingredient>500g de harina</ingredient>
@@ -273,10 +273,10 @@
   </recepta>
 
   <!-- Receta 9 -->
-  <recepta>
+  <recepta id="9">
     <titol>Brownie de chocolate</titol>
     <descripcio></descripcio>
-    <imatge src="../img/brownie.jpg" alt="Brownie de chocolate"/>
+    <imatge src="../img/brownies.jpg" alt="Brownie de chocolate"/>
     <ingredients>
       <categoria nom="Principal">
         <ingredient>200g de chocolate negro</ingredient>
@@ -303,7 +303,7 @@
   </recepta>
 
   <!-- Receta 10 -->
-  <recepta>
+  <recepta id="10">
     <titol>Hamburguesa clásica</titol>
     <descripcio></descripcio>
     <imatge src="../img/hamburguesa.jpg" alt="Hamburguesa clásica"/>
@@ -336,7 +336,7 @@
   </recepta>
 
   <!-- Receta 11 -->
-  <recepta>
+  <recepta id="11">
     <titol>Ensalada César</titol>
     <descripcio></descripcio>
     <imatge src="../img/cesar.jpg" alt="Ensalada César"/>
@@ -371,7 +371,7 @@
   </recepta>
 
   <!-- Receta 12 -->
-  <recepta>
+  <recepta id="12">
     <titol>Arroz con leche</titol>
     <descripcio></descripcio>
     <imatge src="../img/arrozconleche.jpg" alt="Arroz con leche"/>
@@ -400,7 +400,7 @@
   </recepta>
 
   <!-- Receta 13 -->
-  <recepta>
+  <recepta id="13">
     <titol>Gazpacho andaluz</titol>
     <descripcio></descripcio>
     <imatge src="../img/gazpacho.jpg" alt="Gazpacho andaluz"/>
@@ -431,7 +431,7 @@
   </recepta>
 
   <!-- Receta 14 -->
-  <recepta>
+  <recepta id="14">
     <titol>Sopa de cebolla</titol>
     <descripcio></descripcio>
     <imatge src="../img/sopacebolla.jpg" alt="Sopa de cebolla"/>
@@ -459,7 +459,7 @@
   </recepta>
 
   <!-- Receta 15 -->
-  <recepta>
+  <recepta id="15">
     <titol>Ensalada de quinoa</titol>
     <descripcio></descripcio>
     <imatge src="../img/quinoa.jpg" alt="Ensalada de quinoa"/>
