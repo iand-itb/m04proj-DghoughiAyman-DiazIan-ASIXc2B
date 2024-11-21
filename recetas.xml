@@ -43,6 +43,7 @@
       <anticancer>no</anticancer>
       <autor>Anónimo</autor>
     </detalls>
+    <icono><span class="icon vegetarian">&#x1F331;</span></icono>
   </recepta>
 
   <!-- Receta 2 -->
@@ -80,13 +81,14 @@
       <anticancer>no</anticancer>
       <autor>Anónimo</autor>
     </detalls>
+    <icono><span class="icon vegetarian">&#x1F331;</span></icono>
   </recepta>
 
   <!-- Receta 3 -->
   <recepta id="3">
     <titol>Sushi de salmón y aguacate</titol>
     <descripcio>a</descripcio>
-    <imatge src="../img/sushi.jpg" alt="Sushi de salmón y aguacate"/>
+    <imatge src="../img/sushi.webp" alt="Sushi de salmón y aguacate"/>
     <ingredients>
       <categoria nom="Principal">
         <ingredient>Arroz para sushi</ingredient>
@@ -111,6 +113,7 @@
       <anticancer>no</anticancer>
       <autor>Anónimo</autor>
     </detalls>
+    <icono><span class="icon meat">&#x1F969;</span></icono>
   </recepta>
 
   <!-- Más recetas -->
@@ -140,6 +143,7 @@
       <anticancer>no</anticancer>
       <autor>Anónimo</autor>
     </detalls>
+    <icono><span class="icon vegetarian">&#x1F331;</span></icono>
   </recepta>
   <!-- Receta 5 -->
   <recepta id="5">
@@ -172,6 +176,7 @@
       <anticancer>no</anticancer>
       <autor>Anónimo</autor>
     </detalls>
+    <icono><span class="icon vegetarian">&#x1F331;</span></icono>
   </recepta>
 
   <!-- Receta 6 -->
@@ -206,6 +211,7 @@
       <anticancer>no</anticancer>
       <autor>Anónimo</autor>
     </detalls>
+    <icono><span class="icon meat">&#x1F969;</span></icono>
   </recepta>
 
   <!-- Receta 7 -->
@@ -235,6 +241,7 @@
       <anticancer>no</anticancer>
       <autor>Anónimo</autor>
     </detalls>
+    <icono><span class="icon vegetarian">&#x1F331;</span></icono>
   </recepta>
 
   <!-- Receta 8 -->
@@ -270,6 +277,7 @@
       <anticancer>no</anticancer>
       <autor>Anónimo</autor>
     </detalls>
+    <icono><span class="icon meat">&#x1F969;</span></icono>
   </recepta>
 
   <!-- Receta 9 -->
@@ -300,6 +308,7 @@
       <anticancer>no</anticancer>
       <autor>Anónimo</autor>
     </detalls>
+    <icono><span class="icon vegetarian">&#x1F331;</span></icono>
   </recepta>
 
   <!-- Receta 10 -->
@@ -333,13 +342,14 @@
       <anticancer>no</anticancer>
       <autor>Anónimo</autor>
     </detalls>
+    <icono><span class="icon meat">&#x1F969;</span></icono>
   </recepta>
 
   <!-- Receta 11 -->
   <recepta id="11">
     <titol>Ensalada César</titol>
     <descripcio></descripcio>
-    <imatge src="../img/cesar.jpg" alt="Ensalada César"/>
+    <imatge src="../img/cesar.webp" alt="Ensalada César"/>
     <ingredients>
       <categoria nom="Para la ensalada">
         <ingredient>Lechuga romana</ingredient>
@@ -368,6 +378,7 @@
       <anticancer>no</anticancer>
       <autor>Anónimo</autor>
     </detalls>
+    <icono><span class="icon meat">&#x1F969;</span></icono>
   </recepta>
 
   <!-- Receta 12 -->
@@ -397,6 +408,7 @@
       <anticancer>no</anticancer>
       <autor>Anónimo</autor>
     </detalls>
+    <icono><span class="icon vegetarian">&#x1F331;</span></icono>
   </recepta>
 
   <!-- Receta 13 -->
@@ -428,6 +440,7 @@
       <anticancer>no</anticancer>
       <autor>Anónimo</autor>
     </detalls>
+    <icono><span class="icon vegetarian">&#x1F331;</span></icono>
   </recepta>
 
   <!-- Receta 14 -->
@@ -456,6 +469,7 @@
       <anticancer>no</anticancer>
       <autor>Anónimo</autor>
     </detalls>
+    <icono><span class="icon vegetarian">&#x1F331;</span></icono>
   </recepta>
 
   <!-- Receta 15 -->
@@ -487,4 +501,5 @@
       <autor>Anónimo</autor>
     </detalls>
   </recepta>
+  <icono><span class="icon vegetarian">&#x1F331;</span></icono>
 </receptes>

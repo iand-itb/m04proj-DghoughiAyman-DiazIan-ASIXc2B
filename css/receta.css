@@ -92,7 +92,7 @@ h1 {
     align-items: center;
     padding: 25px 0;
     background-color: #f9f9f9;
-    border-radius: 5px;
+    width: 900px;
 }
 
 .recipe ol {
@@ -179,6 +179,7 @@ img {
     border-radius: 15px;
     margin-top: 20px;
     margin-bottom: 20px;
+    width: 60%;
 
 }
 
