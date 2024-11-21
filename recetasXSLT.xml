@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+  <xsl:output method="html" encoding="UTF-8"/>
+  <xsl:template match="/receptes">
+    <html lang="en">
+      <head>
+        <title><xsl:value-of select="recepta/titol"/></title>
+        <link rel="stylesheet" href="../css/receta.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+      </head>
+      <body>
+        <header>
+          <img src="../img/Logo-Delicias.png" id="logo"/>
+          <nav>
+            <ul>
+              <a href="../index.html">INICIO</a>
+              <a href="">SOBRE MÍ</a>
+              <a href="../listado/listado.html">RECETAS</a>
+              <a href="../contacto/contacto.html">CONTACTO</a>
+              <a href="">OTRAS COSAS</a>
+            </ul>
+          </nav>
+        </header>
+        <div class="container">
+          <div class="recipe">
+            <h1 class="receta1"><xsl:value-of select="recepta/titol"/></h1>
+            <p class="description"><xsl:value-of select="recepta/descripcio"/></p>
+            <img>
+              <xsl:attribute name="src"><xsl:value-of select="recepta/imatge/@src"/></xsl:attribute>
+              <xsl:attribute name="alt"><xsl:value-of select="recepta/imatge/@alt"/></xsl:attribute>
+            </img>
+            <div class="ingredientes">
+              <h2>Ingredientes</h2>
+              <xsl:for-each select="recepta/ingredients/categoria">
+                <h3><xsl:value-of select="@nom"/></h3>
+                <ul>
+                  <xsl:for-each select="ingredient">
+                    <li><xsl:value-of select="."/></li>
+                  </xsl:for-each>
+                </ul>
+              </xsl:for-each>
+            </div>
+            <h2>Preparación</h2>
+            <ol>
+              <xsl:for-each select="recepta/preparacio/pas">
+                <li><xsl:value-of select="."/></li>
+              </xsl:for-each>
+            </ol>
+            <p>
+              <span class="label"><strong>Dificultad:</strong> <xsl:value-of select="recepta/detalls/dificultat"/></span>
+              <span class="label"><strong>Cocina:</strong> <xsl:value-of select="recepta/detalls/cocina"/></span>
+              <span class="label"><strong>Vegetariana:</strong> <xsl:value-of select="recepta/detalls/vegetariana"/></span>
+              <span class="label"><strong>Celíacos:</strong> <xsl:value-of select="recepta/detalls/celiacos"/></span>
+              <span class="label"><strong>Anticáncer:</strong> <xsl:value-of select="recepta/detalls/anticancer"/></span>
+            </p>
+            <p><strong>Autor:</strong> <xsl:value-of select="recepta/detalls/autor"/></p>
+          </div>
+        </div>
+        <footer>
+          <nav>
+            <ul>
+              <a href="">FACEBOOK</a>
+              <a href="">TWITTER</a>
+              <a href="">INSTAGRAM</a>
+              <a href="">PINTEREST</a>
+              <a href="">EMAIL</a>
+              <a href="">RRSS</a>
+            </ul>
+          </nav>
+        </footer>
+      </body>
+    </html>
+  </xsl:template>
+</xsl:stylesheet>
