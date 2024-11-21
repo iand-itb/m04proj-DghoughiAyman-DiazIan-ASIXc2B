@@ -47,11 +47,11 @@
               </xsl:for-each>
             </ol>
             <p>
-              <span class="label"><strong>Dificultad:</strong> <xsl:value-of select="recepta/detalls/dificultat"/></span>
-              <span class="label"><strong>Cocina:</strong> <xsl:value-of select="recepta/detalls/cocina"/></span>
-              <span class="label"><strong>Vegetariana:</strong> <xsl:value-of select="recepta/detalls/vegetariana"/></span>
-              <span class="label"><strong>Celíacos:</strong> <xsl:value-of select="recepta/detalls/celiacos"/></span>
-              <span class="label"><strong>Anticáncer:</strong> <xsl:value-of select="recepta/detalls/anticancer"/></span>
+              <span class="label"><strong>Dificultad: </strong> <xsl:value-of select="recepta/detalls/dificultat"/></span>
+              <span class="label"><strong>Cocina: </strong> <xsl:value-of select="recepta/detalls/cocina"/></span>
+              <span class="label"><strong>Vegetariana: </strong> <xsl:value-of select="recepta/detalls/vegetariana"/></span>
+              <span class="label"><strong>Celíacos: </strong> <xsl:value-of select="recepta/detalls/celiacos"/></span>
+              <span class="label"><strong>Anticáncer: </strong> <xsl:value-of select="recepta/detalls/anticancer"/></span>
             </p>
             <div class="icons">
               <span class="icon check">&#x2714;</span>
