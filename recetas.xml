@@ -48,7 +48,7 @@
   <recepta>
     <titol>Tarta de queso mascarpone y arándanos</titol>
     <descripcio></descripcio>
-    <imatge src="../img/mascarpone.jpg" alt="Tarta de queso mascarpone y arándanos"/>
+    <imatge src="../img/tartaqueso.jpg" alt="Tarta de queso mascarpone y arándanos"/>
     <ingredients>
       <categoria nom="Para la base">
         <ingredient>1 paquete de galletas</ingredient>
