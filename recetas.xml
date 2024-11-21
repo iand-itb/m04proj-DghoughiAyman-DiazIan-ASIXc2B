@@ -145,7 +145,7 @@
   <recepta id="5">
     <titol>Gazpacho andaluz</titol>
     <descripcio></descripcio>
-    <imatge src="../img/gazpacho.jpg" alt="Gazpacho andaluz"/>
+    <imatge src="../img/gazpacho.webp" alt="Gazpacho andaluz"/>
     <ingredients>
       <categoria nom="Principal">
         <ingredient>Tomates maduros</ingredient>
