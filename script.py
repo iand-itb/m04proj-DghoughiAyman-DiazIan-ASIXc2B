@@ -48,7 +48,7 @@ def transform_xml_to_html(xml_file, xslt_file, output_dir):
 # Configuració
 xml_file_path = "recetas.xml"  # Canvia la ruta pel teu XML
 xslt_file_path = "recetasXSLT.xml"  # Canvia la ruta pel teu XSLT
-output_directory = "./output"  # Directori on es guardaran els HTML generats
+output_directory = "./nuevas_recetas"  # Directori on es guardaran els HTML generats
 
 # Crea el directori de sortida si no existeix
 os.makedirs(output_directory, exist_ok=True)
