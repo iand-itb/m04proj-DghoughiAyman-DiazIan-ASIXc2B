@@ -53,6 +53,11 @@
               <span class="label"><strong>Celíacos:</strong> <xsl:value-of select="recepta/detalls/celiacos"/></span>
               <span class="label"><strong>Anticáncer:</strong> <xsl:value-of select="recepta/detalls/anticancer"/></span>
             </p>
+            <div class="icons">
+              <span class="icon check">&#x2714;</span>
+              <span class="icon utensil">&#x1F373;</span>
+              <xsl:value-of select="recepta/icono"></xsl:value-of>
+            </div>
             <p><strong>Autor:</strong> <xsl:value-of select="recepta/detalls/autor"/></p>
           </div>
         </div>
