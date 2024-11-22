@@ -413,35 +413,49 @@
 
   <!-- Receta 13 -->
   <recepta id="13">
-    <titol>Gazpacho andaluz</titol>
-    <descripcio></descripcio>
-    <imatge src="../img/gazpacho.jpg" alt="Gazpacho andaluz"/>
+    <titol>Ramen tradicional japonés</titol>
+    <descripcio>Receta de ramen japonés con caldo casero, fideos y toppings típicos como huevo marinado y cerdo chashu</descripcio>
+    <imatge src="../img/ramen.webp" alt="Ramen tradicional japonés"/>
     <ingredients>
-      <categoria nom="Principal">
-        <ingredient>Tomates</ingredient>
-        <ingredient>Pepino</ingredient>
-        <ingredient>Ajo</ingredient>
-        <ingredient>Pan</ingredient>
-        <ingredient>Aceite de oliva</ingredient>
-        <ingredient>Vinagre</ingredient>
-        <ingredient>Sal</ingredient>
-      </categoria>
+        <categoria nom="Para el caldo">
+            <ingredient>1 litro de agua</ingredient>
+            <ingredient>500 g de huesos de cerdo</ingredient>
+            <ingredient>1 trozo de jengibre (5 cm), en rodajas</ingredient>
+            <ingredient>2 dientes de ajo</ingredient>
+            <ingredient>1 cebolla grande, cortada en cuartos</ingredient>
+            <ingredient>2 cucharadas de salsa de soja</ingredient>
+            <ingredient>1 cucharada de miso</ingredient>
+        </categoria>
+        <categoria nom="Para los toppings">
+            <ingredient>2 huevos</ingredient>
+            <ingredient>100 g de panceta de cerdo (Chashu)</ingredient>
+            <ingredient>2 hojas de alga nori</ingredient>
+            <ingredient>Cebolla verde (en rodajas finas)</ingredient>
+            <ingredient>Brotes de bambú</ingredient>
+        </categoria>
+        <categoria nom="Para los fideos">
+            <ingredient>300 g de fideos ramen</ingredient>
+        </categoria>
     </ingredients>
     <preparacio>
-      <pas>Mezcla todos los ingredientes en una batidora.</pas>
-      <pas>Refrigera durante 2 horas.</pas>
-      <pas>Sirve frío con trozos de pan o verduras.</pas>
+        <pas>Coloca los huesos de cerdo en una olla con agua hirviendo durante 10 minutos para limpiar las impurezas. Escurre y enjuaga los huesos.</pas>
+        <pas>Llena una olla grande con 1 litro de agua y añade los huesos limpios, el jengibre, el ajo, y la cebolla. Cocina a fuego lento durante 2-3 horas.</pas>
+        <pas>Agrega la salsa de soja y el miso al caldo, ajusta la sazón según el gusto.</pas>
+        <pas>Hierve los huevos durante 6 minutos, luego sumérgelos en agua con hielo. Pela y marina los huevos en una mezcla de salsa de soja, mirin y agua durante al menos 2 horas.</pas>
+        <pas>Cocina los fideos ramen según las instrucciones del paquete y resérvalos.</pas>
+        <pas>En un tazón, sirve los fideos calientes, agrega el caldo y decora con el huevo marinado, la panceta de cerdo, alga nori, cebolla verde y brotes de bambú.</pas>
+        <pas>Sirve y disfruta de tu delicioso ramen casero!</pas>
     </preparacio>
     <detalls>
-      <dificultat>baja</dificultat>
-      <cocina>andaluz</cocina>
-      <vegetariana>sí</vegetariana>
-      <celiacos>sí</celiacos>
-      <anticancer>no</anticancer>
-      <autor>Anónimo</autor>
+        <dificultat>media</dificultat>
+        <cocina>tradicional</cocina>
+        <vegetariana>no</vegetariana>
+        <celiacos>no</celiacos>
+        <anticancer>no</anticancer>
+        <autor>Anónimo</autor>
     </detalls>
-    <icono><span class="icon vegetarian">&#x1F331;</span></icono>
-  </recepta>
+    <icono><span class="icon meat">&#x1F969;</span></icono>
+</recepta>
 
   <!-- Receta 14 -->
   <recepta id="14">
