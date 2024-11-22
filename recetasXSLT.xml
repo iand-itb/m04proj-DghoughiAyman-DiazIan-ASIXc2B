@@ -59,6 +59,9 @@
               <xsl:value-of select="recepta/icono"></xsl:value-of>
             </div>
             <p><strong>Autor:</strong> <xsl:value-of select="recepta/detalls/autor"/></p>
+            <div class="actions">
+              <span id="like" class="icon like"><a href="#"><i class="fa fa-thumbs-up"></i></a></span>
+            </div>
           </div>
         </div>
         <footer>
@@ -75,5 +78,11 @@
         </footer>
       </body>
     </html>
+    <script>
+      const like = document.getElementById("like")
+      like.addEventListener("click", () => {
+          alert("Gracias por dar like! 🤓")
+      })
+    </script>
   </xsl:template>
 </xsl:stylesheet>

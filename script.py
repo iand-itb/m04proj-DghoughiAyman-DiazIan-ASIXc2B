@@ -34,7 +34,7 @@ def transform_xml_to_html(xml_file, xslt_file, output_dir):
             
             # Obté el títol de la recepta per al nom del fitxer
             recepta_title = recepta.findtext("titol", "recepta").strip().replace(" ", "_")
-            output_file = os.path.join(output_dir, f"{recepta_title}.html")
+            output_file = os.path.join(output_dir, f"receip{recepta.get('id')}.html")
             
             # Escriu l'HTML generat al fitxer de sortida
             with open(output_file, 'w', encoding='utf-8') as html_f:
