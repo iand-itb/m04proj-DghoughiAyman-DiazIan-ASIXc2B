@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="css" href="css/receta.css"?>
 <receptes>
+  <!-- Receta 1 -->
   <recepta id="1">
     <titol>Spaghettis con salsa y albóndigas de carne gratinados al horno con queso</titol>
     <descripcio>Receta de spaghettis con salsa y albóndigas de carne gratinados al horno con queso</descripcio>
@@ -49,7 +50,7 @@
   <!-- Receta 2 -->
   <recepta id="2">
     <titol>Tarta de queso mascarpone y arándanos</titol>
-    <descripcio>a</descripcio>
+    <descripcio>Deliciosa tarta cremosa con la suavidad del queso mascarpone y el toque fresco de los arándanos. Perfecta para sorprender en cualquier ocasión especial.</descripcio>
     <imatge src="../img/tartaqueso.jpg" alt="Tarta de queso mascarpone y arándanos"/>
     <ingredients>
       <categoria nom="Para la base">
@@ -87,7 +88,7 @@
   <!-- Receta 3 -->
   <recepta id="3">
     <titol>Sushi de salmón y aguacate</titol>
-    <descripcio>a</descripcio>
+    <descripcio>Una combinación fresca y sabrosa de sushi japonés, con láminas de salmón y cremoso aguacate, ideal para los amantes de la cocina nipona.</descripcio>
     <imatge src="../img/sushi.webp" alt="Sushi de salmón y aguacate"/>
     <ingredients>
       <categoria nom="Principal">
@@ -116,10 +117,10 @@
     <icono><span class="icon meat">&#x1F969;</span></icono>
   </recepta>
 
-  <!-- Más recetas -->
+  <!-- Receta 4 -->
   <recepta id="4">
     <titol>Ensalada caprese</titol>
-    <descripcio></descripcio>
+    <descripcio>Un clásico italiano que combina tomates frescos, mozzarella, albahaca y un toque de aceite de oliva. Frescura y sencillez en cada bocado.</descripcio>
     <imatge src="../img/caprese.jpg" alt="Ensalada caprese"/>
     <ingredients>
       <categoria nom="Principal">
@@ -145,10 +146,11 @@
     </detalls>
     <icono><span class="icon vegetarian">&#x1F331;</span></icono>
   </recepta>
+
   <!-- Receta 5 -->
   <recepta id="5">
     <titol>Gazpacho andaluz</titol>
-    <descripcio></descripcio>
+    <descripcio>Una sopa fría tradicional española, elaborada con tomates frescos, pimientos y pepino, perfecta para refrescarse en los días calurosos.</descripcio>
     <imatge src="../img/gazpacho.jpg" alt="Gazpacho andaluz"/>
     <ingredients>
       <categoria nom="Principal">
@@ -182,7 +184,7 @@
   <!-- Receta 6 -->
   <recepta id="6">
     <titol>Paella de mariscos</titol>
-    <descripcio></descripcio>
+    <descripcio>Un emblema de la cocina española, esta paella combina mariscos frescos con arroz sabroso, lleno de aromas mediterráneos.</descripcio>
     <imatge src="../img/paella.jpg" alt="Paella de mariscos"/>
     <ingredients>
       <categoria nom="Principal">
@@ -217,7 +219,7 @@
   <!-- Receta 7 -->
   <recepta id="7">
     <titol>Crepes dulces con Nutella</titol>
-    <descripcio></descripcio>
+    <descripcio>Finas crepes francesas rellenas de Nutella, un postre irresistible que deleita a los amantes del chocolate y las masas suaves.</descripcio>
     <imatge src="../img/crepes.jpg" alt="Crepes dulces con Nutella"/>
     <ingredients>
       <categoria nom="Principal">
@@ -247,7 +249,7 @@
   <!-- Receta 8 -->
   <recepta id="8">
     <titol>Pizza margarita</titol>
-    <descripcio></descripcio>
+    <descripcio>La pizza italiana por excelencia: una base crujiente, con tomate fresco, mozzarella fundida y un toque de albahaca. Sencillez deliciosa.</descripcio>
     <imatge src="../img/pizza.webp" alt="Pizza margarita"/>
     <ingredients>
       <categoria nom="Para la masa">
@@ -283,7 +285,7 @@
   <!-- Receta 9 -->
   <recepta id="9">
     <titol>Brownie de chocolate</titol>
-    <descripcio></descripcio>
+    <descripcio>Irresistibles brownies con textura húmeda y rica, perfectos para los amantes del chocolate. Un postre clásico y reconfortante</descripcio>
     <imatge src="../img/brownies.jpg" alt="Brownie de chocolate"/>
     <ingredients>
       <categoria nom="Principal">
@@ -314,7 +316,7 @@
   <!-- Receta 10 -->
   <recepta id="10">
     <titol>Hamburguesa clásica</titol>
-    <descripcio></descripcio>
+    <descripcio>Una hamburguesa sencilla pero deliciosa, con carne jugosa y los ingredientes tradicionales.</descripcio>
     <imatge src="../img/hamburguesa.jpg" alt="Hamburguesa clásica"/>
     <ingredients>
       <categoria nom="Para la carne">
@@ -348,7 +350,7 @@
   <!-- Receta 11 -->
   <recepta id="11">
     <titol>Ensalada César</titol>
-    <descripcio></descripcio>
+    <descripcio>Clásica ensalada César con pollo, crutones y una cremosa salsa casera.</descripcio>
     <imatge src="../img/cesar.webp" alt="Ensalada César"/>
     <ingredients>
       <categoria nom="Para la ensalada">
@@ -384,7 +386,7 @@
   <!-- Receta 12 -->
   <recepta id="12">
     <titol>Arroz con leche</titol>
-    <descripcio></descripcio>
+    <descripcio>Tradicional postre cremoso de arroz cocido en leche, con un toque de canela y limón.</descripcio>
     <imatge src="../img/arrozconleche.jpg" alt="Arroz con leche"/>
     <ingredients>
       <categoria nom="Principal">
@@ -414,7 +416,7 @@
   <!-- Receta 13 -->
   <recepta id="13">
     <titol>Ramen tradicional japonés</titol>
-    <descripcio>Receta de ramen japonés con caldo casero, fideos y toppings típicos como huevo marinado y cerdo chashu</descripcio>
+    <descripcio>Ramen japonés con caldo casero, fideos y toppings típicos como huevo marinado y cerdo chashu</descripcio>
     <imatge src="../img/ramen.webp" alt="Ramen tradicional japonés"/>
     <ingredients>
         <categoria nom="Para el caldo">
@@ -460,7 +462,7 @@
   <!-- Receta 14 -->
   <recepta id="14">
     <titol>Sopa de cebolla</titol>
-    <descripcio></descripcio>
+    <descripcio>Clásica sopa francesa con cebolla caramelizada, caldo de carne y pan gratinado con queso.</descripcio>
     <imatge src="../img/sopacebolla.jpg" alt="Sopa de cebolla"/>
     <ingredients>
       <categoria nom="Principal">
@@ -489,7 +491,7 @@
   <!-- Receta 15 -->
   <recepta id="15">
     <titol>Ensalada de quinoa</titol>
-    <descripcio></descripcio>
+    <descripcio>Ensalada fresca y nutritiva con quinoa, aguacate, tomate y aderezo de limón y aceite de oliva.</descripcio>
     <imatge src="../img/quinoa.jpg" alt="Ensalada de quinoa"/>
     <ingredients>
       <categoria nom="Principal">
