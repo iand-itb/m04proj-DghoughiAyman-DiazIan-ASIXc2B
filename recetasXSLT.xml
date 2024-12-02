@@ -47,11 +47,11 @@
               </xsl:for-each>
             </ol>
             <p>
-              <span class="label"><strong>Dificultad:</strong> <xsl:value-of select="recepta/detalls/dificultat"/></span>
-              <span class="label"><strong>Cocina:</strong> <xsl:value-of select="recepta/detalls/cocina"/></span>
-              <span class="label"><strong>Vegetariana:</strong> <xsl:value-of select="recepta/detalls/vegetariana"/></span>
-              <span class="label"><strong>Celíacos:</strong> <xsl:value-of select="recepta/detalls/celiacos"/></span>
-              <span class="label"><strong>Anticáncer:</strong> <xsl:value-of select="recepta/detalls/anticancer"/></span>
+              <span class="label"><strong>Dificultad: </strong> <xsl:value-of select="recepta/detalls/dificultat"/></span>
+              <span class="label"><strong>Cocina: </strong> <xsl:value-of select="recepta/detalls/cocina"/></span>
+              <span class="label"><strong>Vegetariana: </strong> <xsl:value-of select="recepta/detalls/vegetariana"/></span>
+              <span class="label"><strong>Celíacos: </strong> <xsl:value-of select="recepta/detalls/celiacos"/></span>
+              <span class="label"><strong>Anticáncer: </strong> <xsl:value-of select="recepta/detalls/anticancer"/></span>
             </p>
             <div class="icons">
               <span class="icon check">&#x2714;</span>
@@ -59,6 +59,9 @@
               <xsl:value-of select="recepta/icono"></xsl:value-of>
             </div>
             <p><strong>Autor:</strong> <xsl:value-of select="recepta/detalls/autor"/></p>
+            <div class="actions">
+              <span id="like" class="icon like"><a href="#"><i class="fa fa-thumbs-up"></i></a></span>
+            </div>
           </div>
         </div>
         <footer>
@@ -75,5 +78,11 @@
         </footer>
       </body>
     </html>
+    <script>
+      const like = document.getElementById("like")
+      like.addEventListener("click", () => {
+          alert("Gracias por dar like! 🤓")
+      })
+    </script>
   </xsl:template>
 </xsl:stylesheet>
