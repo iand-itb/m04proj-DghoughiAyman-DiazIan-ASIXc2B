@@ -119,6 +119,9 @@ h1 {
 .description {
     font-style: italic;
     color: #666;
+    text-align: center;
+    padding-left: 70px;
+    padding-right: 70px;
 }
 
 p {
